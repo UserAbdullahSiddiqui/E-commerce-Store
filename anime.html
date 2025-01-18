@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime World by Abdullah Siddiqui</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: #ffffff;
+            padding: 20px 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 10px 0 0;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px 0;
+        }
+
+        .best-sellers h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            padding: 15px;
+            text-align: center;
+            border-radius: 8px;
+            background: #fff;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .product:hover {
+            transform: translateY(-10px) scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .product img {
+            width: 50%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .product:hover img {
+            transform: scale(1.1);
+        }
+
+        .product h3 {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .sale-price {
+            color: #e63946;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #e63946;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        button:hover {
+            background-color: #d62828;
+        }
+
+        .centered-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .centered-section h2 {
+            margin-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        .shop-by-collection ul, .commitment ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .shop-by-collection ul li, .commitment ul li {
+            margin-bottom: 10px;
+        }
+
+        .shop-by-collection ul li a {
+            text-decoration: none;
+            color: #e63946;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Anime World by Abdullah Siddiqui</h1><br><br>
+            <nav>
+                <ul>
+                    <li><a href="neckless.html">Necklaces</a></li>
+                    <li><a href="rings.html">Rings</a></li>
+                    <li><a href="keychain.html">Key Chains</a></li>
+                    <li><a href="LOGIN.HTML">Log in</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="best-sellers">
+            <h2>Our Best Sellers!</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="pendant anime.jpg" alt="Naruto Necklaces">
+                    <h3>Naruto Necklaces</h3>
+                    <p class="sale-price">Rs.699.00 PKR</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="keychain pro.jpg" alt="Anime Key Chains">
+                    <h3>Anime Key Chains</h3>
+                    <p class="sale-price">Rs.1,999.00 PKR</p>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product">
+                    <img src="akatsuki ringss.jpg" alt="Akatsuki Rings">
+                    <h3>Akatsuki Rings</h3>
+                    <p class="sale-price">Rs.999.00 PKR</p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="centered-section">
+            <section class="shop-by-collection">
+                <h2>Shop by Collection</h2>
+                <ul>
+                    <li><a href="neckless.html">Necklaces</a></li>
+                    <li><a href="#">Key Chains</a></li>
+                    <li><a href="rings.html">Rings</a></li>
+                </ul>
+            </section>
+
+            <section class="customer-reviews">
+                <h2>What Our Customers Say!</h2>
+                <div class="review">
+                    <p><strong>Leo:</strong> I always was in need of anime products but could never find them in Pakistan, I am really glad that these guys got me covered now.</p>
+                </div>
+                <div class="review">
+                    <p><strong>Harry:</strong> I ordered your one piece & naruto pendant loved its quality will definitely order more.</p>
+                </div>
+                <div class="review">
+                    <p><strong>Liam:</strong> Their customer care is so on point, love the way they deal with their clients. Highly recommend www.animepakistan.com</p>
+                </div>
+            </section>
+
+            <section class="commitment">
+                <h2>Our Commitment</h2>
+                <ul>
+                    <li>✓ 100% Satisfaction Guarantee</li>
+                    <li>✓ 24/7 Customer Support</li>
+                    <li>✓ Premium Quality Products</li>
+                    <li>✓ No Hassle Returns</li>
+                    <li>✓ Secured Transactions</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025, Anime World by Abdullah Siddiqui. All rights reserved.</p>
+            <p>Follow us on Instagram</p>
+        </div>
+    </footer>
+</body>
+</html>
